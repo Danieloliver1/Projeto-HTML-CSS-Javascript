@@ -1,0 +1,110 @@
+
+/* ----------- CARROSEL ------------ */
+
+#carrosel{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    width: 400%;
+    height: 550px;
+    display: flex;
+    border: 0;
+}
+
+.slides input{
+    display: none;
+}
+
+.fotos{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.fotos img{
+    width: 100%;
+    height: 100%;
+}
+
+.navegacao-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){ /* Esse comando aplica os efeitos em todos menos no ultimo filho/item */
+    margin-right: 3%;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .primeira{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .primeira{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeira{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .primeira{
+    margin-left: -75%;
+}
+
+.auto-navegacao div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.auto-navegacao{
+    position: absolute;
+    width: 100%;
+    margin-top: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto-navegacao div:not(:last-child){
+    margin-right: 3%;
+}
+
+#radio1:checked ~ .auto-navegacao .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .auto-navegacao .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .auto-navegacao .auto-btn3{
+    background-color: #FFF;
+}
+
+#radio4:checked ~ .auto-navegacao .auto-btn4{
+    background-color: #FFF;
+}

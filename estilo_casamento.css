@@ -1,0 +1,91 @@
+h1{
+    text-decoration: none;
+    color: #D8557B;
+    margin-left: 310px;
+    margin-top: 100px;
+    font-size: 33px;
+}
+h2{
+    text-decoration: none;
+    color: #D8557B;
+    margin-left: 310px;
+    margin-top: 100px;
+    font-size: 33px;
+}
+
+section{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+h2{
+    margin-top: 15px;
+}
+
+#bolo a{
+    text-decoration: none;
+    color: #D8557B;
+    font-size: 15px;
+    font-family: Arial
+}
+
+#bolo a:hover{
+    color: brown;
+}
+
+
+article{
+    padding: 10px;
+    margin: 10px;
+    background: #f4efec;
+    width: 230px;
+    height: 320px;
+    border: 5px solid whitesmoke;
+    border-radius: 3px;
+}
+
+#classico{
+    overflow:hidden; 
+    max-width: 100%; 
+    -moz-transition: all 0.3s;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+    display: inline-block;
+}
+
+#classico:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#floral{
+    overflow:hidden; 
+    max-width: 100%; 
+    -moz-transition: all 0.3s;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+    display: inline-block;
+}
+
+#floral:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#tematico{
+    overflow:hidden; 
+    max-width: 100%; 
+    -moz-transition: all 0.3s;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+    display: inline-block;
+}
+
+#tematico:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
